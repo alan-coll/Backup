@@ -57,25 +57,27 @@ object Backup: TBackup
     TabOrder = 1
   end
   object BtnBackup: TButton
-    Left = 0
-    Top = 154
+    Left = 104
+    Top = 138
     Width = 75
     Height = 33
     Caption = 'Backup'
     TabOrder = 2
   end
   object BtnCancelar: TButton
-    Left = 222
-    Top = 154
+    Left = 104
+    Top = 202
     Width = 75
     Height = 33
     Caption = 'Cancelar'
     TabOrder = 3
   end
   object OpenDialog1: TOpenDialog
-    Left = 120
+    Left = 248
+    Top = 152
   end
   object SaveDialog1: TSaveDialog
     Left = 192
+    Top = 152
   end
 end
